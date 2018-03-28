@@ -1,0 +1,3 @@
+{
+  "presets": ["@babel/react", "@babel/es2017", "@babel/stage-0"]
+}
