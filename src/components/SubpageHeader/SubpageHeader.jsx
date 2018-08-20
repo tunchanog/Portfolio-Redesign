@@ -11,11 +11,11 @@ export class SubpageHeader extends React.Component {
                 <Link to="/">
                     <div className="avatar"></div>
                     <div className="title">
-                        <h1>Tunchanog Powers</h1>
+                        <h1>Camellia Powers</h1>
                         <h2>Visual / UI / UX Designer</h2>
                     </div>
                 </Link>
-                <button className="secondary_btn"><a href="/images/TunchanogP-Resume.pdf" target="blank">Résumé</a></button> 
+                <button className="secondary_btn"><a href="/images/camelliapowers_resume.pdf" target="blank">Résumé</a></button> 
                 </header>
             </section>
         );

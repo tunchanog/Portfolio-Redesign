@@ -9,17 +9,17 @@ export class Footer extends React.Component {
             <section className="footer">
             <FontAwesomeIcon size="3x" icon={["fas", "envelope"]} />
             <h2>Contact</h2>
-            <p className="mail_me">tunchanog@gmail.com</p>
-                <a target="_blank" href="https://github.com/tunchanog">
+            <p className="mail_me">powerscamellia@gmail.com</p>
+                <a target="_blank" href="https://github.com/camelliapowers">
                 <FontAwesomeIcon size="2x" icon={["fab", "github"]} />
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/tunchanog-powers/">
+                <a target="_blank" href="https://www.linkedin.com/in/camellia-powers/">
                 <FontAwesomeIcon size="2x" icon={["fab", "linkedin-in"]} />
                  </a>
-                <a target="_blank" href="https://www.pinterest.com/tunchanogpowers/" > 
+                <a target="_blank" href="https://www.pinterest.com/powerscamellia/" > 
                 <FontAwesomeIcon size="2x" icon={["fab", "pinterest"]} />
                 </a>
-            <p>&#169;2018 Tunchanog Powers</p>
+            <p>&#169;2018 Camellia Powers</p>
             </section>
         );
     }
