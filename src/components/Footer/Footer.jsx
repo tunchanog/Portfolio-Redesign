@@ -16,10 +16,10 @@ export class Footer extends React.Component {
                 <a target="_blank" href="https://www.linkedin.com/in/camellia-powers/">
                 <FontAwesomeIcon size="2x" icon={["fab", "linkedin-in"]} />
                  </a>
-                <a target="_blank" href="https://www.pinterest.com/powerscamellia/" > 
+                {/* <a target="_blank" href="https://www.pinterest.com/powerscamellia/" > 
                 <FontAwesomeIcon size="2x" icon={["fab", "pinterest"]} />
-                </a>
-            <p>&#169;2018 Camellia Powers</p>
+                </a> */}
+            <p>&#169;2018-2019 Camellia Powers</p>
             </section>
         );
     }

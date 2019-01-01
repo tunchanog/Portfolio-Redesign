@@ -1,6 +1,6 @@
 import * as React from "react";
-import 'react-sticky-header/styles.css';
-import StickyHeader from 'react-sticky-header';
+// import 'react-sticky-header/styles.css';
+// import StickyHeader from 'react-sticky-header';
 
 import{Projects} from "./Projects/Projects"
 import {ProjectView} from "./Projects/ProjectView"

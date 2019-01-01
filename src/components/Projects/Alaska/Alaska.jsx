@@ -46,7 +46,7 @@ export class Alaska extends React.Component {
                 </div>
                 <div className="project-detail">
                     <div className="detail-row">
-                        <div className="detail-title">Mockup</div>
+                        <div className="detail-title"><p></p></div>
                         <div className="detail-content"></div>
                     </div>
                     <img className="detail_image" src="../images/projects/alaska/Alaska3.jpg" />
