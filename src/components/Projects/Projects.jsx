@@ -3,6 +3,7 @@ import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 
 import {ProjectThumb} from "./ProjectThumb";
+import {ProjectNext} from "./ProjectNext";
 import {Footer} from "../Footer/Footer"
 import {Header} from "../Header/Header"
  
@@ -30,6 +31,9 @@ export class Projects extends React.Component {
                     <ProjectThumb title="UI Design, Prototype" name="hbw"/>
                     <ProjectThumb title="UI Design, HTML/CSS/jQuery" name="metro"/>
                     <ProjectThumb title="Web Design" name="archaio"/>
+                    <ProjectNext />
+                    <ProjectNext />
+                    <ProjectNext />
                 </div>
                 </section>
                 <Footer />
