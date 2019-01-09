@@ -10,6 +10,7 @@ import {Alaska} from "./Alaska/Alaska";
 import {HBW} from "./HBW/HBW";
 import {Metro} from "./Metro/Metro";
 import {Archaio} from "./Archaio/Archaio";
+import {Portofseattle} from "./Portofseattle/Portofseattle";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import "./Projects.scss";
@@ -17,12 +18,14 @@ import "./Projects.scss";
 export class ProjectView extends React.Component {
 
     pages = [
+        "portofseattle",
         "centerpoint",
         "mobility",
         "alaska",
         "hbw",
         "metro",
-        "archaio"
+        "archaio",
+        
     ];
 
     getNextPage() {
@@ -31,7 +34,7 @@ export class ProjectView extends React.Component {
         var pageName = url.substr(lastSlashIndex + 1);
         var pageIndex = this.pages.indexOf(pageName);
         var nextPageIndex = pageIndex + 1;
-        if (nextPageIndex > 5){
+        if (nextPageIndex > 6){
             nextPageIndex = 0;
         }
         return this.pages[nextPageIndex];
@@ -43,7 +46,7 @@ export class ProjectView extends React.Component {
         var pageIndex = this.pages.indexOf(pageName);
         var previousPageIndex = pageIndex - 1;
         if (previousPageIndex < 0){
-            previousPageIndex = 5;
+            previousPageIndex = 6;
         }
         return this.pages[previousPageIndex];
     }
@@ -76,6 +79,7 @@ export class ProjectView extends React.Component {
                         </Link>
                     </nav>
                 </div>
+                <Route path={`${path}/portofseattle`} component={Portofseattle} />
                 <Route path={`${path}/centerpoint`} component={Centerpoint} />
                 <Route path={`${path}/mobility`} component={Mobility} />
                 <Route path={`${path}/alaska`} component={Alaska} />

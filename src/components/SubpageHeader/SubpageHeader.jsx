@@ -15,6 +15,7 @@ export class SubpageHeader extends React.Component {
                         <h2>Visual / UI / UX Designer</h2>
                     </div>
                 </Link>
+                {/* <button className="secondary_btn">Bio</button>  */}
                 <button className="secondary_btn"><a href="/images/camelliapowers_resume.pdf" target="blank">Résumé</a></button> 
                 </header>
             </section>

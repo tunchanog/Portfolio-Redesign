@@ -39,6 +39,10 @@ var images = [
     "/images/projects/mobility/mobility1.jpg",
     "/images/projects/mobility/Signin.jpg",
     "/images/projects/mobility/Connection_Mock.jpg",
+
+    "/images/projects/portofseattle/thumb.jpg",
+    "/images/projects/portofseattle/parking_user.jpg",
+    "/images/projects/portofseattle/sea-tac_parking.jpg"
 ]
 
 ReactDOM.render(
