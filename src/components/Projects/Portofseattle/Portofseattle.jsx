@@ -29,7 +29,7 @@ export class Portofseattle extends React.Component {
                         <div className="detail-content">
                             <p>Sketch, Photoshop&nbsp;&nbsp;
                                 <a className="primary_btn" href="/images/projects/portofseattle/Sea-Tac_Parking_Reservation.pdf" target="blank">Stories</a>
-                                {/* <a className="primary_btn" href="../images/projects/" target="_blank">Design</a> */}
+                                <a className="primary_btn" href="../images/projects/portofseattle/sea-tac_parking_design.jpg" target="_blank">Design</a>
                         </p>
                         </div>
                     </div>
