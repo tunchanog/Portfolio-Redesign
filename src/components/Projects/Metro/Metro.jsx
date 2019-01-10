@@ -27,7 +27,8 @@ export class Metro extends React.Component {
                     <div className="detail-row">
                         <div className="detail-title">Tools</div>
                         <div className="detail-content">
-                            <p>Photoshop, Illustrator, Text Editor</p>
+                            <p>Photoshop, Illustrator, Text Editor &nbsp;[ &nbsp;HTML/CSS/Jquery &nbsp;] &nbsp;
+                            <a className="primary_btn" href="../images/projects/metro/demo/home.html" target="_blank">Demo</a></p>
                         </div>
                     </div>
                 </div>
@@ -35,8 +36,7 @@ export class Metro extends React.Component {
                     <div className="detail-row">
                         <div className="detail-title">Duties</div>
                         <div className="detail-content">
-                            <p> Web/UI Design, FrontEnd Dev [ &nbsp;HTML/CSS/Jquery &nbsp;] &nbsp;
-                            <a className="primary_btn" href="../images/projects/metro/demo/home.html" target="_blank">Demo</a> 
+                            <p> Web/UI Design, FrontEnd Dev  
                             </p>
                         </div>
                     </div>

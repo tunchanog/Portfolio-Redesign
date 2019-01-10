@@ -8,7 +8,7 @@ export class Header extends React.Component {
             <section className="header" >
                 <div className="avatar"></div>
                 <h1>Camellia Powers</h1>
-                <h2>UI / UX Designer</h2>
+                <h2>UI/UX Designer</h2>
                 <h3>Seattle, WA</h3>
                 <div className="intro">
                     <p>Hi, I'm Camellia Powers. I'm a designer based in Seattle, WA. I'm always interested in new technology, design

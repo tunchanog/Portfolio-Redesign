@@ -42,7 +42,8 @@ var images = [
 
     "/images/projects/portofseattle/thumb.jpg",
     "/images/projects/portofseattle/parking_user.jpg",
-    "/images/projects/portofseattle/sea-tac_parking.jpg"
+    "/images/projects/portofseattle/sea-tac_parking.jpg",
+    "/images/projects/portofseattle/sea-tac_design.jpg"
 ]
 
 ReactDOM.render(

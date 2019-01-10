@@ -25,7 +25,7 @@ export class Projects extends React.Component {
                     <h2>Work</h2>
                 </header>
                 <div className="row">
-                    <ProjectThumb title="UI/UX Design, Prototype" name="portofseattle"/>
+                    <ProjectThumb title="Visual/UI/UX Design" name="portofseattle"/>
                     <ProjectThumb title="Visual/UI/UX Design" name="centerpoint"/>
                     <ProjectThumb title="UI/UX Design, Prototype" name="mobility"/>
                     <ProjectThumb title="UI/UX Design, HTML/CSS/ReactJS" name="alaska"/>

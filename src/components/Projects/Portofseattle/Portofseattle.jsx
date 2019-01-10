@@ -6,7 +6,7 @@ export class Portofseattle extends React.Component {
     render() {
         return (
             <div className="project-detail-container">
-                     <h2>Sea-Tac Airport - Parking Resevation</h2>
+                     <h2>Sea-Tac Airport - Parking Reservation System</h2>
                      <div className="project-detail">
                     <div className="detail-row">
                         <div className="detail-title">Client</div>
@@ -27,11 +27,9 @@ export class Portofseattle extends React.Component {
                     <div className="detail-row">
                         <div className="detail-title">Tools</div>
                         <div className="detail-content">
-                            <p>Sketch, Photoshop
-                                {/* , InVision  */}
-                                &nbsp;&nbsp;<a className="primary_btn" href="/images/projects/portofseattle/Sea-Tac_Parking_Reservation.pdf" target="blank">Stories</a>
+                            <p>Sketch, Photoshop&nbsp;&nbsp;
+                                <a className="primary_btn" href="/images/projects/portofseattle/Sea-Tac_Parking_Reservation.pdf" target="blank">Stories</a>
                                 {/* <a className="primary_btn" href="../images/projects/" target="_blank">Design</a> */}
-                                {/* <a className="primary_btn" href="../images/projects/" target="_blank">Prototype</a> */}
                         </p>
                         </div>
                     </div>
@@ -40,7 +38,7 @@ export class Portofseattle extends React.Component {
                     <div className="detail-row">
                         <div className="detail-title">Duties</div>
                         <div className="detail-content">
-                            <p>Visual Design, UI/UX Design, Prototype</p>
+                            <p>Visual Design, UI/UX Design</p>
                         </div>
                     </div>
                 </div>
@@ -48,19 +46,19 @@ export class Portofseattle extends React.Component {
                     <div className="detail-row">
                         <div className="detail-title">About App</div>
                         <div className="detail-content">
-                        <p>Sea-Tac Airport Reserve parking spot on demand</p>
+                        <p>This app will give customers the ability to reserve parking spots that are close to their ticketing area, have spots assigned on-demand when they arrive at the Sea-Tac garage, and have easy access to their parking spot location.  It also automatically handles payment when the customer leaves the garage.</p>
+                        
                         </div>
                     </div>
                 </div>
-                {/* <div className="project-detail">
+                <div className="project-detail">
                     <div className="detail-row">
                         <div className="detail-title">Goal</div>
                         <div className="detail-content">
-                            <p>To provide an alternative channel for users to access CATS services, improving user experience
-                                over the old Windows Mobile product, and giving them more control in the field.</p>
+                            <p>To improve customer experience at Sea-Tac Airport parking.</p>
                         </div>
                     </div>
-                </div> */}
+                </div>
                 <div className="project-detail">
                     <div className="detail-row">
                     <div className="detail-title"><p></p></div>
